@@ -1,3 +1,10 @@
+/*
+ * Gerard Lamoureux
+ * UpdateBakeTimer
+ * Assignment 4
+ * Handles Bake Timer Countdown
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

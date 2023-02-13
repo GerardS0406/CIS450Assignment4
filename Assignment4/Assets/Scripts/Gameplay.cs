@@ -1,3 +1,10 @@
+/*
+ * Gerard Lamoureux
+ * UpdateBakeTimer
+ * Assignment 4
+ * Handles Overall Gameplay
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +34,8 @@ public class Gameplay : MonoBehaviour
     private int gameTimer = 180;
 
     [SerializeField] private GameObject ingredientsButtons;
+
+    [SerializeField] private TextMeshProUGUI lastIngredientText;
 
     [SerializeField] private TextMeshProUGUI gameTimerText;
 
@@ -77,24 +86,31 @@ public class Gameplay : MonoBehaviour
             {
                 case 0:
                     playerCurrentCake = new BaseIcing(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nBase Icing Layer";
                     break;
                 case 1:
                     playerCurrentCake = new IcingDesigns(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nIcing Designs";
                     break;
                 case 2:
                     playerCurrentCake = new BirthdayCandle(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nBirthday Candle";
                     break;
                 case 3:
                     playerCurrentCake = new PlasticFigurine(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nPlastic Figurine";
                     break;
                 case 4:
                     playerCurrentCake = new PorcelainFigurine(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nPorcelain Figurine";
                     break;
                 case 5:
                     playerCurrentCake = new Sprinkles(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nSprinkles";
                     break;
                 case 6:
                     playerCurrentCake = new CrushedCookies(playerCurrentCake);
+                    lastIngredientText.text = "Last Ingredient:\nCrushed Cookies";
                     break;
                 default:
                     break;

@@ -1,3 +1,10 @@
+/*
+ * Gerard Lamoureux
+ * UpdateBakeTimer
+ * Assignment 4
+ * Handles Sprinkles/Cookies Toppings Decorators
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

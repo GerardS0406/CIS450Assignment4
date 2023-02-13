@@ -1,3 +1,10 @@
+/*
+ * Gerard Lamoureux
+ * UpdateBakeTimer
+ * Assignment 4
+ * Handles Cake Component
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

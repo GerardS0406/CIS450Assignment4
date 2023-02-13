@@ -1,3 +1,10 @@
+/*
+ * Gerard Lamoureux
+ * UpdateBakeTimer
+ * Assignment 4
+ * Handles Birthday Candle Decorator
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
